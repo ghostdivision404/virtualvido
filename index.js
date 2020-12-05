@@ -112,7 +112,7 @@ conn.sendMessage(id, teks, MessageType.text)
 if (text.includes("!ytmp3")){
 const teks = text.replace(/!ytmp3 /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/yta?url=${teks}`).then((res) => {
-	conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
+	conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
     let hasil = `✅ ᴠɪᴅᴇᴏ ʙᴇʀʜᴀꜱɪʟ ᴅɪ ᴄᴏɴᴠᴇʀᴛᴇʀ ꜱɪʟᴀʜᴋᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ʜᴀꜱɪʟɴʏᴀ \n\nᴊᴜᴅᴜʟ : ${res.data.title} \n\nᴜᴋᴜʀᴀɴ ᴠɪᴅᴇᴏ : ${res.data.filesize} \n\nʟɪɴᴋ : ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -444,7 +444,7 @@ _${kata}_
         imageToBase64(cewek) // Path to the image
         .then(
             (response) => {
-    conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
+    conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
 	var buf = Buffer.from(response, 'base64'); // Ta-da	
               conn.sendMessage(
             id,
@@ -474,7 +474,7 @@ _${kata}_
         imageToBase64(cowok) 
         .then(
             (response) => {
-  conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
+  conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
   var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(
             id,
@@ -504,7 +504,7 @@ if (text.includes("!anime"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
+    conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
 	var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(
             id,
@@ -524,8 +524,8 @@ if (text.includes("!anime"))
 if (text.includes("!lirik")){
 	const teks = text.split("!lirik")[1]
 	axios.get(`http://scrap.terhambar.com/lirik?word=${teks}`).then ((res) => {
-	     conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
-	 	let hasil = `📍lirik lagu📍${teks} \n\n\n ${res.data.result.lirik}`
+	     conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
+	 	let hasil = `🎼 ʟɪʀɪᴋ ʟᴀɢᴜ 🎼 ${teks} \n\n\n ${res.data.result.lirik}`
 	conn.sendMessage(id, hasil, MessageType.text)
 	})
 }
