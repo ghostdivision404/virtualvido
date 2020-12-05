@@ -130,7 +130,7 @@ if (text.includes("!igstalk")){
 if (text.includes("!ytmp4")){
 const teks = text.replace(/!ytmp4 /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
-	conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓, MessageType.text)
+	conn.sendMessage(id, '[ 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 ] ⏳ \n\n𝑺𝒆𝒅𝒂𝒏𝒈 𝒎𝒆𝒎𝒖𝒂𝒕 𝒅𝒂𝒕𝒂 \n𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝒕𝒖𝒏𝒈𝒈𝒖 𝒔𝒆𝒃𝒆𝒏𝒕𝒂𝒓', MessageType.text)
     let hasil = `✅ ᴠɪᴅᴇᴏ ʙᴇʀʜᴀꜱɪʟ ᴅɪ ᴄᴏɴᴠᴇʀᴛᴇʀ ꜱɪʟᴀʜᴋᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ʜᴀꜱɪʟɴʏᴀ \n\nᴊᴜᴅᴜʟ : ${res.data.title} \n\nᴜᴋᴜʀᴀɴ ᴠɪᴅᴇᴏ : ${res.data.filesize} \n\nʟɪɴᴋ : ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 
