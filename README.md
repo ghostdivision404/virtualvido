@@ -37,12 +37,5 @@
 |       ✅       | 📰 *ꜰɪᴛᴜʀ ʙᴇʀɪᴛᴀ* 📰                               |
 
 
-
-
-
-## THANKS TO
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
-* [`botst4rz`](https://github.com/Bintang73/botst4rz)
-* [`ibnusyawall`](https://github.com/ibnusyawall)
-## DONASI
-* [`Saweria`](https://saweria.com/aditiaalfians)
+🆁🅴🅶🅰🆁🅳🆂
+𝓥𝓲𝓭𝓸 𝓐𝓼𝓼𝓲𝓼𝓽
