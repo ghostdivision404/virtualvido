@@ -2,7 +2,7 @@
 ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪɢᴜɴᴀᴋᴀɴ ᴅɪ ᴛᴇʀᴍᴜx
 
 
-<img src = "img src="https://i.ibb.co/F4LKjjk/13-Oktober-2019.jpg" width="320">
+<img src = "https://i.ibb.co/3m97LL5/13-Oktober-2019.jpg" width="320">
 
 
 
