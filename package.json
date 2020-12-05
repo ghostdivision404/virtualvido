@@ -1,7 +1,7 @@
 {
-  "name": "ALFBOT",
-  "version": "1.0.0",
-  "description": "bot termux",
+  "name": "VIRTUAL VIDO",
+  "version": "1.3.0",
+  "description": "ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪɢᴜɴᴀᴋᴀɴ ᴅɪ ᴛᴇʀᴍᴜx",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -34,15 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alfiansx/alfbot"
+    "url": "git+https://github.com/ghostdivision404/virtualvido"
   },
   "keywords": [
     "k"
   ],
-  "author": "Abdul Muttaqin",
+  "author": "Aslam Vhykramsyah",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alfiansx/alfbot/issues"
+    "url": "https://github.com/ghostdivision404/virtualvido/issues"
   },
-  "homepage": "https://github.com/alfiansx/alfbot#readme"
+  "homepage": "https://github.com/ghostdivision404/virtualvido#readme"
 }
