@@ -1,23 +1,23 @@
-## Alf Bot
-BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
+## 𝐕𝐈𝐑𝐓𝐔𝐀𝐋 𝐕𝐈𝐃𝐎
+ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪɢᴜɴᴀᴋᴀɴ ᴅɪ ᴛᴇʀᴍᴜx
 
 
-<img src = "https://i.ibb.co/jD65tdm/62-812-1347-7896-20201109-230938.jpg" width="320">
+<img src = "img src="https://i.ibb.co/ZWPK4h1/13-Oktober-2019.jpg" width="320">
 
 
 
 
-## CARA INSTALL
-# TERMUX
+## 𝐂𝐀𝐑𝐀 𝐈𝐍𝐒𝐓𝐀𝐋𝐋
+# 𝐓𝐄𝐑𝐌𝐔𝐗
 ```bash
-> download termux
-> buka
+> ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴇʀᴍᴜx
+> ʙᴜᴋᴀ ᴛᴇʀᴍᴜx
 > pkg install git
 > pkg install ffmpeg
 > pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/alfiansx/alfbot
-> cd alfbot
+> git clone https://github.com/ghostdivision404/virtualvido
+> cd virtualvido
 > bash install.sh
 > npm i node-tesseract-ocr
 > pkg install tesseract
@@ -26,27 +26,16 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 ```
 
 
-# FITUR
+# 𝐅𝐈𝐓𝐔𝐑
 
-| KEADAAN       |               FITUR     |
+| 𝗦𝗧𝗔𝗧𝗨𝗦       |               𝗙𝗜𝗧𝗨𝗥     |
 | :-----------: | :--------------------------------:  |
-|       ✅       |    PANTUN                         |
-|       ✅       | ANIMEPICT                         |
-|       ✅       | STICKER                           |
-|       ✅       | NULIS 
-|       ✅       | OCR                               |
-|       ✅       | QUOTES                            |
-|       ✅       | RANDOM PICT                       |
-|       ✅       | ANIMEPICT                         |
-|       ✅       | LIRIK                             |
-|       ✅       | ALAY                              |
-|       ✅       | YT,YTMP3,TWT,TIK TOK DOWNLOADER   |
-|       ✅       | WIKIPEDIA                         |
-|       ✅       | ARTI NAMA                         |
-|       ✅       | SHOLAT                            |
-|       ✅       | QURAN                             |
+|       ✅       |    🛡️ *ꜰɪᴛᴜʀ ᴘʀᴇᴍɪᴜᴍ* 🛡️                        |
+|       ✅       | 💟 *ꜰɪᴛᴜʀ ᴍᴏᴏᴅ* 💟                         |
+|       ✅       | 📥 *ꜰɪᴛᴜʀ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 📥                           |
+|       ✅       | ☪️ *ꜰɪᴛᴜʀ ᴍᴜꜱʟɪᴍ* ☪️ 
+|       ✅       | 📰 *ꜰɪᴛᴜʀ ʙᴇʀɪᴛᴀ* 📰                               |
 
-✅ aktif
 
 
 
