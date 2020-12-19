@@ -537,7 +537,27 @@ if (text.includes("!alay")){
 	})
 }
 
-
+	case 'resep':
+           resep(value)
+               .then(data => {
+                   const { title, user,  datePublished, dificulty, times, serving, bahan, tutor } = data
+                   let hasil = `*Judul:* ${title}\n*Penulis:* ${user}\n*Rilis:* ${datePublished}\n*Level:* ${dificulty}\n*Waktu:* ${times}\n*Porsi:* ${servings}\n\n*Bahan-bahan:*\n${ingredient}\n\n*Step-by-step:*\n ${step} `
+                   client.sendMessage(id, hasil,MessageType.text)
+               })
+               .catch(err => {
+                   console.log(err)
+               })
+	
+	 case 'cuaca':
+           cuaca(value)
+               .then(data => {
+                   const { tempat,suhu,angin,kelembapan,cuaca } = data
+                   let hasil = `Tempat : ${tempat}\nCuaca : ${cuaca}\nAngin : ${angin}\nSuhu : ${suhu}\nKelembapan : ${kelembapan}`
+                   client.sendMessage(id, hasil,MessageType.text)
+               })
+               .catch(err => {
+                   console.log(err)
+               })
 
 
 
